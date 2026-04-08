@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact PurpleWave for web design, branding, and hosting support." />
+  <meta name="keywords" content="contact PurpleWave, web design inquiry, branding inquiry, hosting support" />
+  <title>Contact | PurpleWave</title>
+  <link rel="icon" href="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/262379dc-7d7f-4f73-bbf9-fb5c7b3e8b18.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="branding">
+        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/262379dc-7d7f-4f73-bbf9-fb5c7b3e8b18.png" alt="PurpleWave logo" />
+        <div><h1>PurpleWave</h1></div>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button id="mobileMenuBtn" class="mobile-toggle" type="button">Menu</button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <button id="mobileMenuClose" class="mobile-menu-close" aria-label="Close menu">X</button>
+      <a href="index.html" onclick="closeMobileMenu()">Home</a>
+      <a href="aboutus.html" onclick="closeMobileMenu()">About</a>
+      <a href="services.html" onclick="closeMobileMenu()">Services</a>
+      <a href="events.html" onclick="closeMobileMenu()">Events</a>
+      <a href="contact.html" onclick="closeMobileMenu()">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Let’s talk</span>
+          <h2>Ready to build something fresh? Reach out and we’ll make it happen.</h2>
+          <p>Whether you need a new website, event page, or brand refresh, we’ll help you launch a strong digital presence.</p>
+          <div class="hero-actions">
+            <a href="contact.html" class="cta-button">Tell us about your project</a>
+            <a href="index.html" class="button-secondary">Back to home</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1080&q=80" alt="PurpleWave contact" />
+          <div class="hero-pillboard">
+            <strong>Fast replies</strong>
+            <small>We typically respond to inquiries within one business day.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-highlight">
+          <div class="glass-panel">
+            <h3>Send a message</h3>
+            <form id="contactForm" class="contact-form">
+              <input type="text" name="name" placeholder="Your name" required />
+              <input type="email" name="email" placeholder="Your email" required />
+              <textarea name="message" placeholder="How can we help?" required></textarea>
+              <button type="submit" class="form-submit">Send message</button>
+            </form>
+          </div>
+          <div class="glass-panel">
+            <h3>Contact information</h3>
+            <p>Reach out for pricing, timelines, or event support.</p>
+            <ul class="feature-list">
+              <li>Email: <a href="mailto:hello@purplewave.com">hello@purplewave.com</a></li>
+              <li>Phone: <a href="tel:+1234567890">+1 234 567 890</a></li>
+              <li>Location: Creative City, USA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>PurpleWave</h3>
+        <p>Fast, polished digital experiences.</p>
+      </div>
+      <div class="footer-links">
+        <h3>Navigate</h3>
+        <a href="aboutus.html">About</a>
+        <a href="services.html">Services</a>
+      </div>
+      <div class="footer-links">
+        <h3>Support</h3>
+        <a href="mailto:help@purplewave.com">help@purplewave.com</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/scripts.js"></script>
+</body>
+</html>
